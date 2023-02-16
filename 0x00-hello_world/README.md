@@ -1,0 +1,1 @@
+The projects in this directory mainly deal with preprocessing, compiling, assembly and linking.
