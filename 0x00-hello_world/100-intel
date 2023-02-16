@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ -z "$CFILE" ]; then echo "Please provide the C file name using the CFILE variable"; exit 1; fi; gcc -S -masm=intel $CFILE; mv $(basename $CFILE .c).s $(basename $CFILE .c).s; echo "Assembly code saved to $(basename $CFILE .c).s"
