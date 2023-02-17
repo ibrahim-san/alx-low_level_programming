@@ -21,7 +21,7 @@ else if (last == 0)
 {
 printf("is %d and is 0\n", last);
 }
-else
+else if (last < 6 and last != 0)
 {
 printf("is %d and is less than 6 and not 0\n", last);
 }
