@@ -1,0 +1,1 @@
+This section deals with defining functions and nested loops, header files will also be practiced.
