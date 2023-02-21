@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  *main - entry point into the function
  *Return: 0 on success
