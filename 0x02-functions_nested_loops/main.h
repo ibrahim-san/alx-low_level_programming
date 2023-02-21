@@ -1,3 +1,5 @@
+#ifndef UNISTD_H
+#define UNISTD_H
 #include <unistd.h>
 
 /**
@@ -11,3 +13,4 @@ int _putchar(char c)
 {
 return (write(1, &c, 1));
 }
+#endif /* UNISTD_H */
